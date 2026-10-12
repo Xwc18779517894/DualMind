@@ -1,0 +1,21 @@
+name: Bug report
+description: Report a reproducible problem without sharing secrets
+body:
+  - type: textarea
+    attributes:
+      label: What happened?
+      description: Describe expected and actual behavior.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Steps to reproduce
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Environment
+      description: Windows version, Python version, DualMind version, model name, exact error code. Never include an API key or private conversation.
+  - type: textarea
+    attributes:
+      label: Screenshot or redacted error
