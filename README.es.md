@@ -2,7 +2,9 @@
 
 **Dos perspectivas de IA. Un espacio compartido.**
 
-[English](README.md) · [简体中文](README.zh-CN.md) · [Español](README.es.md)
+<p align="center">
+  <a href="README.md#简体中文">简体中文</a> · <a href="README.md#english">English</a> · <a href="README.md#español">Español</a>
+</p>
 
 [![Pruebas sin conexión](https://github.com/Xwc18779517894/DualMind/actions/workflows/tests.yml/badge.svg)](https://github.com/Xwc18779517894/DualMind/actions/workflows/tests.yml) ![Windows](https://img.shields.io/badge/platform-Windows-64748b) [![MIT](https://img.shields.io/badge/license-MIT-c26943)](LICENSE)
 
@@ -12,7 +14,7 @@ No obliga a los modelos a discrepar, ni considera que su acuerdo sea una prueba.
 
 ![Interfaz oscura de DualMind](docs/images/workspace-dark.png)
 
-*Interfaz real con contenido simulado en un entorno aislado. La interfaz de la aplicación está actualmente en chino; la documentación está disponible en tres idiomas.*
+*Captura de la interfaz real proporcionada por el autor. La interfaz de la aplicación está actualmente en chino; la documentación está disponible en tres idiomas.*
 
 ## Funciones
 
@@ -128,7 +130,7 @@ node --check frontend/app.js
 node --check frontend/theme.js
 ```
 
-Las pruebas y CI simulan las llamadas a modelos. `test_gemini.py` realiza una prueba real solo si se ejecuta explícitamente. Las capturas y las pruebas visuales usan contenido simulado; no garantizan calidad del modelo ni acceso para otras cuentas.
+Las pruebas y CI simulan las llamadas a modelos. `test_gemini.py` realiza una prueba real solo si se ejecuta explícitamente. Las pruebas visuales usan contenido simulado; no garantizan calidad del modelo ni acceso para otras cuentas.
 
 Consulta la [arquitectura](docs/architecture.md), el [registro de cambios](CHANGELOG.md) y la [guía de contribución](CONTRIBUTING.md). Se conservan las interfaces anteriores CLI/Tkinter; la interfaz principal es el espacio web.
 

@@ -2,7 +2,9 @@
 
 **多一种思路，多一点可能。**
 
-[English](README.md) · [简体中文](README.zh-CN.md) · [Español](README.es.md)
+<p align="center">
+  <a href="README.md#简体中文">简体中文</a> · <a href="README.md#english">English</a> · <a href="README.md#español">Español</a>
+</p>
 
 [![离线测试](https://github.com/Xwc18779517894/DualMind/actions/workflows/tests.yml/badge.svg)](https://github.com/Xwc18779517894/DualMind/actions/workflows/tests.yml) ![Windows](https://img.shields.io/badge/platform-Windows-64748b) ![Python](https://img.shields.io/badge/Python-3.11%2B-3776ab) [![MIT](https://img.shields.io/badge/license-MIT-c26943)](LICENSE)
 
@@ -10,11 +12,9 @@
 
 它不会为了辩论而强行反对，也不把两个模型的一致意见当成事实。对话由你的消息推进。
 
-![DualMind 浅色工作空间](docs/images/workspace-light.png)
-
 ![DualMind 深色工作空间](docs/images/workspace-dark.png)
 
-*截图来自真实界面与隔离模拟环境，不含私人对话或密钥。当前界面为中文，项目介绍提供中、英、西三种语言。*
+*截图由作者提供，展示实际应用的空白工作空间。当前界面为中文，项目介绍提供中、英、西三种语言。*
 
 ## 已有功能
 
